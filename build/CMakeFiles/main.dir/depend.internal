@@ -7,6 +7,7 @@ CMakeFiles/main.dir/main.cc.o
  ../include/EventAction.hh
  ../include/PrimaryGeneratorAction.hh
  ../include/RunAction.hh
+ ../include/SteppingAction.hh
  /home/mtz/Projects/g4_proton/include/PhysicalList.hh
  /home/mtz/Projects/g4_proton/main.cc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
@@ -775,6 +776,7 @@ CMakeFiles/main.dir/src/ActionInitialization.cc.o
  ../include/EventAction.hh
  ../include/PrimaryGeneratorAction.hh
  ../include/RunAction.hh
+ ../include/SteppingAction.hh
  /home/mtz/Projects/g4_proton/src/ActionInitialization.cc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/CLHEP/Units/SystemOfUnits.h
@@ -805,6 +807,7 @@ CMakeFiles/main.dir/src/ActionInitialization.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4Types.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4UserEventAction.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4UserRunAction.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4UserSteppingAction.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VAccumulable.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VAccumulable.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VExceptionHandler.hh
@@ -2283,10 +2286,18 @@ CMakeFiles/main.dir/src/RunAction.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4AffineTransform.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4Allocator.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4AllocatorPool.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4AnalysisManagerState.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4AnalysisUtilities.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4AnalysisVerbose.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ApplicationState.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4AutoLock.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4AuxiliaryNavServices.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4AuxiliaryNavServices.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4BaseAnalysisManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4BaseFileManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4BaseNtupleManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4BaseRNtupleManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4BinScheme.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4BlockingList.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4BlockingList.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4BoundingEnvelope.hh
@@ -2312,6 +2323,7 @@ CMakeFiles/main.dir/src/RunAction.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ExceptionSeverity.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4Exp.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4FastVector.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4Fcn.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ForceCondition.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4GPILSelection.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4GRSSolid.hh
@@ -2322,7 +2334,12 @@ CMakeFiles/main.dir/src/RunAction.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4GeomSplitter.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4GeomTypes.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4GlobalConfig.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4H1ToolsManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4H2ToolsManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4H3ToolsManager.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4HCofThisEvent.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4HnInformation.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4HnManager.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ICRU90StoppingData.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4IonisParamElm.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4IonisParamMat.hh
@@ -2360,6 +2377,8 @@ CMakeFiles/main.dir/src/RunAction.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4Orb.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4Orb.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4OrderedTable.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4P1ToolsManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4P2ToolsManager.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4PDefManager.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4PVPlacement.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ParameterisedNavigation.hh
@@ -2399,6 +2418,13 @@ CMakeFiles/main.dir/src/RunAction.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RegularNavigation.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ReplicaNavigation.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ReplicaNavigation.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RootAnalysisManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RootAnalysisManager.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RootAnalysisReader.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RootAnalysisReader.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RootFileManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RootNtupleManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RootRNtupleManager.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RotationMatrix.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4Run.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4RunManager.hh
@@ -2425,8 +2451,20 @@ CMakeFiles/main.dir/src/RunAction.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4String.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4String.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4SystemOfUnits.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4THnManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4THnManager.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4TNtupleDescription.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4TNtupleManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4TNtupleManager.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4TRNtupleDescription.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4TRNtupleManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4TRNtupleManager.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4Threading.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ThreeVector.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ToolsAnalysisManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ToolsAnalysisManager.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ToolsAnalysisReader.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4ToolsAnalysisReader.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4TouchableHandle.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4TouchableHistory.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4TouchableHistory.icc
@@ -2466,12 +2504,23 @@ CMakeFiles/main.dir/src/RunAction.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4UserTrackingAction.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VAccumulable.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VAccumulable.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VAnalysisManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VAnalysisManager.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VAnalysisReader.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VAnalysisReader.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VDigiCollection.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VExceptionHandler.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VExternalNavigation.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VFileManager.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VGraphicsScene.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VH1Manager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VH2Manager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VH3Manager.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VHitsCollection.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VNotifier.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VNtupleManager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VP1Manager.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VP2Manager.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VPVParameterisation.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VParticleChange.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VParticleChange.icc
@@ -2479,6 +2528,7 @@ CMakeFiles/main.dir/src/RunAction.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VPhysicalVolume.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VPrimaryGenerator.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VProcess.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VRNtupleManager.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VSolid.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VSolid.icc
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/G4VSteppingVerbose.hh
@@ -2503,12 +2553,114 @@ CMakeFiles/main.dir/src/RunAction.cc.o
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/Randomize.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/evmandefs.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/evtdefs.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/g4hntools_defs.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/g4root.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/g4root_defs.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/geomdefs.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/geomwdefs.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/globals.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/pwdefs.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/templates.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/tls.hh
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/S_STRING
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/charp_out
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/cid
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/cids
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/cstr
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/forit
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/get_lines
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/axes
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/axis
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/b1
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/b2
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/b3
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/base_histo
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/h1
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/h1d
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/h1df
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/h2
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/h2d
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/h2df
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/h3
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/h3d
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/h3df
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/histo_data
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/hmpi
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/p1
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/p1d
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/p2
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/p2d
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/histo/profile_data
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/impi
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/lina/eqT
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/long_out
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/mapmanip
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/mem
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/mnmx
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/ntuple_binding
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/ntuple_booking
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/num2s
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/path
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/platform
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/press_func
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rcmp
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rntuple
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/base_leaf
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/buffer
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/ifac
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/iro
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/leaf
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/named
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/ntuple
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/object
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/rbuf
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/rroot/stl_vector
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/safe_cast
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/scast
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/snpf
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/sout
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/sprintf
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/sto
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/store/iobj_const_visitor
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/store/iobj_visitor
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/store/osc_streamers
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/strip
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/stype
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/tosu
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/touplow
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/typedefs
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/vdata
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/vfind
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/vmanip
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/basket
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/branch
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/branch_element
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/branch_object
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/bufobj
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/columns.icc
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/date
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/directory
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/element
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/file
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/free_seg
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/ibo
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/icol
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/idir
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/ifile
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/imutex
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/info
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/infos
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/iobject
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/itree
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/key
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/member_writer
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/mpi_create_basket
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/ntuple
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/seek
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/streamers
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/to
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/tree
+ /home/mtz/sofeware/geant4-mt/install/include/Geant4/tools/wroot/wbuf
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/trajectoryControl.hh
  /home/mtz/sofeware/geant4-mt/install/include/Geant4/trkdefs.hh
 CMakeFiles/main.dir/src/SteppingAction.cc.o
