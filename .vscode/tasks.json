@@ -1,0 +1,92 @@
+//
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "My Clear Build",
+      "type": "shell",
+      "command": "rm -rf build/*"
+    },
+    {
+      "label": "My CMake Build",
+      "type": "shell",
+      "command": "cmake -j10 ..",
+      "args": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "dependsOn": [
+        "My Clear Build"
+      ],
+      "detail": "Generated task for CMake build."
+    },
+    {
+      "label": "My Make Build",
+      "type": "shell",
+      "command": "make -j10 ",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "problemMatcher": [],
+      "dependsOn": [
+        "My CMake Build"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "detail": "Generated task for make build."
+    },
+    {
+      "label": "My Run",
+      "type": "shell",
+      "command": "./xRayImage run.mac",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "detail": "run exe and mac file named run.mac",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "isBackground": true
+    },
+    {
+      "label": "My Merge",
+      "type": "shell",
+      "command": "python3 mergefile.py",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+    },
+    {
+      "label": "My Clear Output",
+      "type": "shell",
+      "command": "rm rt/* runs/*  output/* picture/* build/*",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+    },
+    {
+      "label": "My Submit",
+      "type": "shell",
+      "command":"python3 createfile.py",
+      "problemMatcher":[],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "dependsOn":["My Clear Output"]
+
+    },
+  ]
+}
