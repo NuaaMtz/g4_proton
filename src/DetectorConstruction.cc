@@ -4,8 +4,7 @@
  * @LastEditors: mtz nuaamzt@nuaa.edu.cn
  * @LastEditTime: 2025-05-18 14:20:36
  * @FilePath: /g4_proton/src/DetectorConstruction.cc
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置
- * 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @Description:  在(2cm,0,0)处放置一个半径为1cm的球形重水
  */
 #include "DetectorConstruction.hh"
 DetectorConstruction::DetectorConstruction() : G4VUserDetectorConstruction() {}

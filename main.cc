@@ -2,9 +2,9 @@
  * @Author: mtz nuaamzt@nuaa.edu.cn
  * @Date: 2025-05-17 16:43:30
  * @LastEditors: mtz nuaamzt@nuaa.edu.cn
- * @LastEditTime: 2025-05-18 01:54:05
+ * @LastEditTime: 2025-05-18 14:38:23
  * @FilePath: /g4_proton/main.cc
- * @Description: 主函数
+ * @Description: 主函数，runmanager管理模拟，UI管理可视化
  */
 //#include "ActionInitilization.hh"
 #include "G4MTRunManager.hh"
@@ -16,7 +16,8 @@
 #include "include/PhysicalList.hh"
 #include "PrimaryGeneratorAction.hh"
 #include "ActionInitialization.hh"
-
+#include "FTFP_BERT.hh"
+#include "G4StepLimiterPhysics.hh"
 #include "iostream"
 int main(int argc, char **argv) {
   std::cout << "Hello World!" << std::endl;
@@ -29,7 +30,10 @@ int main(int argc, char **argv) {
   // 探测器追踪
   DetectorConstruction *detectorConstrution = new DetectorConstruction();
   runManager->SetUserInitialization(detectorConstrution );
-  runManager->SetUserInitialization(new PhysicalList());
+  //runManager->SetUserInitialization(new PhysicalList());// 不启用自定义物理列表
+  G4VModularPhysicsList* physicsList = new FTFP_BERT;
+  physicsList->RegisterPhysics(new G4StepLimiterPhysics());
+  runManager->SetUserInitialization(physicsList);
   runManager->SetUserInitialization(new ActionInitialization());
 
   // 粒子可视化

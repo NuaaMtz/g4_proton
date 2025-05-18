@@ -1,3 +1,11 @@
+/*
+ * @Author: mtz nuaamzt@nuaa.edu.cn
+ * @Date: 2025-05-18 01:45:24
+ * @LastEditors: mtz nuaamzt@nuaa.edu.cn
+ * @LastEditTime: 2025-05-18 14:40:59
+ * @FilePath: /g4_proton/src/EventAction.cc
+ * @Description: beamOn控制的事件数，只传递产额
+ */
 
 
 #include "EventAction.hh"
