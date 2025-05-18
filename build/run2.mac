@@ -1,0 +1,56 @@
+# 目标是模拟加速器来的质子束流
+/run/numberOfThreads 10
+
+/run/initialize
+
+# 质子和位置
+/gps/particle proton
+/gps/position 0 0 0 cm
+
+# 模拟束流
+/gps/pos/type Beam
+/gps/pos/shape Circle
+/gps/pos/radius 0.1 mm # 束流起点范围,模拟加速器的出射口
+/gps/direction 1 0 0
+
+#角度偏移，不用
+#/gps/ang/type beam2d
+#/gps/ang/sigma_x 2 mrad
+#/gps/ang/sigma_y 2 mrad
+
+
+
+# 第二次：能量为电能7，粒子数量为2000000*1000
+/gps/energy 12 MeV #如果是单能请注释前面的能量分布，启用它
+/gps/number 3000
+/run/beamOn 1000
+
+# 第二次：能量为电能7，粒子数量为2000000*1000
+/gps/energy 13 MeV #如果是单能请注释前面的能量分布，启用它
+/gps/number 3000
+/run/beamOn 1000
+
+# 第二次：能量为电能7，粒子数量为2000000*1000
+/gps/energy 14 MeV #如果是单能请注释前面的能量分布，启用它
+/gps/number 3000
+/run/beamOn 1000
+
+# 第二次：能量为电能7，粒子数量为2000000*1000
+/gps/energy 15 MeV #如果是单能请注释前面的能量分布，启用它
+/gps/number 3000
+/run/beamOn 1000
+
+# 第二次：能量为电能7，粒子数量为2000000*1000
+/gps/energy 16 MeV #如果是单能请注释前面的能量分布，启用它
+/gps/number 3000
+/run/beamOn 1000
+
+# 第二次：能量为电能7，粒子数量为2000000*1000
+/gps/energy 18 MeV #如果是单能请注释前面的能量分布，启用它
+/gps/number 3000
+/run/beamOn 1000
+
+# 第二次：能量为电能7，粒子数量为2000000*1000
+/gps/energy 19 MeV #如果是单能请注释前面的能量分布，启用它
+/gps/number 3000
+/run/beamOn 1000
