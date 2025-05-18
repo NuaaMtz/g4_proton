@@ -19,30 +19,30 @@ SteppingAction.hh
 ../include/SteppingAction.hh
 
 ../include/DetectorConstruction.hh
-G4VUserDetectorConstruction.hh
-../include/G4VUserDetectorConstruction.hh
-G4RunManager.hh
-../include/G4RunManager.hh
-G4NistManager.hh
-../include/G4NistManager.hh
 G4Box.hh
 ../include/G4Box.hh
 G4Cons.hh
 ../include/G4Cons.hh
-G4Orb.hh
-../include/G4Orb.hh
-G4Sphere.hh
-../include/G4Sphere.hh
-G4Trd.hh
-../include/G4Trd.hh
 G4LogicalVolume.hh
 ../include/G4LogicalVolume.hh
+G4NistManager.hh
+../include/G4NistManager.hh
+G4Orb.hh
+../include/G4Orb.hh
 G4PVPlacement.hh
 ../include/G4PVPlacement.hh
+G4RunManager.hh
+../include/G4RunManager.hh
+G4Sphere.hh
+../include/G4Sphere.hh
 G4SystemOfUnits.hh
 ../include/G4SystemOfUnits.hh
+G4Trd.hh
+../include/G4Trd.hh
 G4Tubs.hh
 ../include/G4Tubs.hh
+G4VUserDetectorConstruction.hh
+../include/G4VUserDetectorConstruction.hh
 
 ../include/EventAction.hh
 G4UserEventAction.hh
@@ -138,15 +138,9 @@ iostream
 ActionInitialization.hh
 /home/mtz/Projects/g4_proton/src/ActionInitialization.hh
 
-/home/mtz/Projects/g4_proton/src/EventAction.cc
-EventAction.hh
-/home/mtz/Projects/g4_proton/src/EventAction.hh
-RunAction.hh
-/home/mtz/Projects/g4_proton/src/RunAction.hh
-G4Event.hh
-/home/mtz/Projects/g4_proton/src/G4Event.hh
-G4RunManager.hh
-/home/mtz/Projects/g4_proton/src/G4RunManager.hh
+/home/mtz/Projects/g4_proton/src/DetectorConstruction.cc
+DetectorConstruction.hh
+/home/mtz/Projects/g4_proton/src/DetectorConstruction.hh
 
 /home/mtz/Projects/g4_proton/src/RunAction.cc
 RunAction.hh

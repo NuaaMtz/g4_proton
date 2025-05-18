@@ -2,7 +2,7 @@
  * @Author: mtz nuaamzt@nuaa.edu.cn
  * @Date: 2025-05-18 01:50:39
  * @LastEditors: mtz nuaamzt@nuaa.edu.cn
- * @LastEditTime: 2025-05-18 14:42:07
+ * @LastEditTime: 2025-05-18 14:49:40
  * @FilePath: /g4_proton/include/B1SteppingAction.hh
  * @Description: 步类
  */
@@ -29,6 +29,6 @@ class SteppingAction : public G4UserSteppingAction
     
 };
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
 
 #endif
