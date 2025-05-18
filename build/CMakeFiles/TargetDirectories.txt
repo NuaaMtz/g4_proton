@@ -1,4 +1,0 @@
-/home/mtz/Projects/g4_proton/build/CMakeFiles/rebuild_cache.dir
-/home/mtz/Projects/g4_proton/build/CMakeFiles/edit_cache.dir
-/home/mtz/Projects/g4_proton/build/CMakeFiles/x_ray_image.dir
-/home/mtz/Projects/g4_proton/build/CMakeFiles/main.dir
