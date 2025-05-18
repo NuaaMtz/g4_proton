@@ -40,7 +40,13 @@
 
 
 /vis/viewer/update
-/run/initialize
+
+
+/gps/particle proton
+/gps/energy 10 MeV
+/gps/number 1000
+/gps/position 0 0 0 cm
+/gps/direction 1 0 0
 
 
 # set event number

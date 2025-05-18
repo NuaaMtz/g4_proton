@@ -11,8 +11,11 @@ EventAction::EventAction(RunAction *runAction)
 
 EventAction::~EventAction() {}
 
-void EventAction::BeginOfEventAction(const G4Event *) {  }
+void EventAction::BeginOfEventAction(const G4Event *) { 
+  fCounts = 0; // Reset the counts at the beginning of each event
+ }
 
 void EventAction::EndOfEventAction(const G4Event *) {
   // accumulate statistics in run action
+  fRunAction->AddCounts(fCounts);
 }
